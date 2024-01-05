@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aravindhan1721_aws_ecs_docker_1704432797403-pr-trigger-input-set
+  identifier: Build_Aravindhan1721_aws_ecs_docker_1704432797403prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Aravindhan1721_aws_ecs_docker_1704432797403
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
